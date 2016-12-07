@@ -1,26 +1,157 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="oN8-cW-1f8">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Hamish-->
+        <scene sceneID="QAh-Pb-rOR">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="omk-hp-3ux" customClass="HamishVC" customModule="GitPractice" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="OL4-mg-pHa"/>
+                        <viewControllerLayoutGuide type="bottom" id="ihw-Y2-rxB"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="kwz-4E-f1O">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HAMISH's View Controller" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G82-44-VIZ">
+                                <rect key="frame" x="88" y="323" width="199" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="G82-44-VIZ" firstAttribute="centerY" secondItem="kwz-4E-f1O" secondAttribute="centerY" id="rsJ-pN-cBR"/>
+                            <constraint firstItem="G82-44-VIZ" firstAttribute="centerX" secondItem="kwz-4E-f1O" secondAttribute="centerX" id="wif-dx-MNS"/>
+                        </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Hamish" id="0ZB-dt-YEN"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p0O-o5-YyH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-447" y="206"/>
+        </scene>
+        <!--Cory-->
+        <scene sceneID="7A0-w7-B4x">
+            <objects>
+                <viewController id="2wG-LY-oUm" customClass="CoryVC" customModule="GitPractice" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="u4e-Yo-JQe"/>
+                        <viewControllerLayoutGuide type="bottom" id="vl4-ZG-J87"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="51A-K4-5MK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CORY's View Controller" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eNZ-Vx-YK2">
+                                <rect key="frame" x="97" y="323" width="180" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="eNZ-Vx-YK2" firstAttribute="centerX" secondItem="51A-K4-5MK" secondAttribute="centerX" id="Bvf-cM-Z5n"/>
+                            <constraint firstItem="eNZ-Vx-YK2" firstAttribute="centerY" secondItem="51A-K4-5MK" secondAttribute="centerY" id="cWE-y5-WJP"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Cory" id="MMT-F8-sBD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kPw-Dd-RgE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="551" y="206"/>
+        </scene>
+        <!--Elliot-->
+        <scene sceneID="yO3-Tp-Skm">
+            <objects>
+                <viewController id="kzw-X0-cKu" customClass="ElliotVC" customModule="GitPractice" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="648-cy-eJl"/>
+                        <viewControllerLayoutGuide type="bottom" id="5T6-uf-8XP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="orb-sN-QJu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ELLIOT's View Controller" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v5w-sr-zcM">
+                                <rect key="frame" x="97" y="323" width="189" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="v5w-sr-zcM" firstAttribute="centerX" secondItem="orb-sN-QJu" secondAttribute="centerX" id="Wa9-RP-PoV"/>
+                            <constraint firstItem="v5w-sr-zcM" firstAttribute="centerY" secondItem="orb-sN-QJu" secondAttribute="centerY" id="sEV-uz-uBd"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Elliot" id="rzO-3A-9fx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4cB-7d-UXS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1516" y="206"/>
+        </scene>
+        <!--Jessica-->
+        <scene sceneID="KSu-Rg-dPK">
+            <objects>
+                <viewController id="8Ca-wu-zCK" customClass="JessicaVC" customModule="GitPractice" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MEJ-yL-Hsn"/>
+                        <viewControllerLayoutGuide type="bottom" id="UrR-QJ-L2b"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4f2-a2-H9p">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JESSICA's View Controller" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FaH-C0-391">
+                                <rect key="frame" x="88" y="323" width="199" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="FaH-C0-391" firstAttribute="centerY" secondItem="4f2-a2-H9p" secondAttribute="centerY" id="55X-dm-Dc8"/>
+                            <constraint firstItem="FaH-C0-391" firstAttribute="centerX" secondItem="4f2-a2-H9p" secondAttribute="centerX" id="lV8-OC-HW1"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Jessica" id="MTa-6o-ZhQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eVG-sp-Rx6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1431" y="207"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="UfS-ry-doX">
+            <objects>
+                <tabBarController id="oN8-cW-1f8" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="blA-qc-IOA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="8Ca-wu-zCK" kind="relationship" relationship="viewControllers" id="lag-P5-4cF"/>
+                        <segue destination="omk-hp-3ux" kind="relationship" relationship="viewControllers" id="CPO-G4-jVx"/>
+                        <segue destination="2wG-LY-oUm" kind="relationship" relationship="viewControllers" id="zLf-Pi-F5X"/>
+                        <segue destination="kzw-X0-cKu" kind="relationship" relationship="viewControllers" id="MbH-cz-Ask"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DU6-MW-bCg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-134" y="-770"/>
         </scene>
     </scenes>
 </document>

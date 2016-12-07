@@ -1,10 +1,4 @@
-//
-//  AppDelegate.swift
-//  GitPractice
-//
-//  Created by Markets And YOU on 7/12/16.
-//  Copyright © 2016 Powershot. All rights reserved.
-//
+
 
 import UIKit
 
