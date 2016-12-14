@@ -26,7 +26,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="G82-44-VIZ" firstAttribute="centerY" secondItem="kwz-4E-f1O" secondAttribute="centerY" id="rsJ-pN-cBR"/>
+                            <constraint firstItem="G82-44-VIZ" firstAttribute="centerY" secondItem="kwz-4E-f1O" secondAttribute="centerY" constant="-125.5" id="rsJ-pN-cBR"/>
                             <constraint firstItem="G82-44-VIZ" firstAttribute="centerX" secondItem="kwz-4E-f1O" secondAttribute="centerX" id="wif-dx-MNS"/>
                         </constraints>
                     </view>
@@ -53,6 +53,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hux-ad-n23">
+                                <rect key="frame" x="153" y="441" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
