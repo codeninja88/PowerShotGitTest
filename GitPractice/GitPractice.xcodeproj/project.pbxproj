@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		61BF6B951E012DAD00551EDC /* Skull.png in Resources */ = {isa = PBXBuildFile; fileRef = 61BF6B941E012DAD00551EDC /* Skull.png */; };
+		846406511E012E9F00C33139 /* SkullTransparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 846406501E012E9F00C33139 /* SkullTransparent.png */; };
 		E449E3591DF7C8A7007713B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449E3581DF7C8A7007713B5 /* AppDelegate.swift */; };
 		E449E35B1DF7C8A7007713B5 /* JessicaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E449E35A1DF7C8A7007713B5 /* JessicaVC.swift */; };
 		E449E35E1DF7C8A7007713B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E449E35C1DF7C8A7007713B5 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		61BF6B941E012DAD00551EDC /* Skull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Skull.png; sourceTree = "<group>"; };
+		846406501E012E9F00C33139 /* SkullTransparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SkullTransparent.png; sourceTree = "<group>"; };
 		E449E3551DF7C8A7007713B5 /* GitPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E449E3581DF7C8A7007713B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E449E35A1DF7C8A7007713B5 /* JessicaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JessicaVC.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 		E449E3571DF7C8A7007713B5 /* GitPractice */ = {
 			isa = PBXGroup;
 			children = (
+				846406501E012E9F00C33139 /* SkullTransparent.png */,
 				61BF6B941E012DAD00551EDC /* Skull.png */,
 				E449E3581DF7C8A7007713B5 /* AppDelegate.swift */,
 				E449E35A1DF7C8A7007713B5 /* JessicaVC.swift */,
@@ -140,6 +143,7 @@
 				E449E3601DF7C8A7007713B5 /* Assets.xcassets in Resources */,
 				E449E35E1DF7C8A7007713B5 /* Main.storyboard in Resources */,
 				61BF6B951E012DAD00551EDC /* Skull.png in Resources */,
+				846406511E012E9F00C33139 /* SkullTransparent.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
